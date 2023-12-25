@@ -1,30 +1,90 @@
-#ჩემი და და მისი წლოვანება
+from turtle import *
 
-name = "Katerina"
-age = 20
+#we want to paint a house
 
-print(name)
-print(age)
+#step 1: draw a square
 
-#დედაჩემი და მისი წლოვანება
+speed(30)
+width(7)
+color("blue")
+forward(200)
+left(90)
 
-name = "Keti"
-age = 42
+forward(200)
+left(90)
 
-print(name)
-print(age)
+forward(200)
+left(90)
 
-#მამაჩემი და მისი წლოვანება
+forward(200)
+left(90)
+#end of square
 
-name = "Zaza"
-age = 49
+#drawing door
 
-print(name)
-print(age)
+forward(70)
+color("red")
+begin_fill()
+left(90)
+forward(120) #height of the door
+right(90)
+forward(60)
+right(90)
+forward(120)
+end_fill()
 
-#მე და ჩემი წლოვანება
-name = "Luka"
-age = 15
+penup()
+goto(200, 200)
+pendown()
 
-print(name)
-print(age)
+color("yellow")
+begin_fill()
+right(150)
+forward(200)
+left(120)
+forward(200)
+end_fill()
+
+penup()
+goto(180, 180)
+pendown()
+
+color("purple")
+right(60)
+forward(50)
+left(90)
+forward(40)
+left(90)
+forward(50)
+left(90)
+forward(40)
+
+penup()
+goto(155, 180)
+pendown()
+
+left(180)
+forward(40)
+
+penup()
+goto(70, 180)
+pendown()
+
+forward(40)
+right(90)
+forward(50)
+right(90)
+forward(40)
+right(90)
+forward(50)
+
+penup()
+goto(45, 180)
+pendown()
+
+right(90)
+forward(40)
+
+
+
+exitonclick()

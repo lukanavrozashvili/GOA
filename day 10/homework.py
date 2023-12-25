@@ -1,10 +1,7 @@
-# შექმენით ფუნქცია რომელსაც გადაეცემა 3 პარამეტრი(სამკუთხედის გვერდები) 
-# და დაპრინტავს "ასეთი სამკუთხედი იარსებებს", 
-# ან დაპრინტავს "ასეთი სამკუთხედი ვერ იარსებებს" 
+# x = [2, 4, 6, 2, 4, 7, 2, 9]  ამ სიის გამოყენებით დაწერეთ კოდი რომელიც წაშლის ორივე ოთხიანს სიიდან
 
-def triangle(triangle_side1, triangle_side2, triangle_side3):
-    triangle_area = triangle_side1 + triangle_side2 + triangle_side3
+x = [2, 4, 6, 2, 4, 7, 2, 9]
 
-    print(triangle_area)
-
-triangle("aseti samkutxedi iarsebebs, ", "aseti samkutxedi ver iarsebebs, ", "aseti samkutxedi shesadzloa iarsebos.")
+x.remove(4)
+x.remove(4)
+print(x)

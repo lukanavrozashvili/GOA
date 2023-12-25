@@ -1,13 +1,38 @@
-#მომხმარებელს შეეკითხეთ ხელფასი
-#თუ 10000ზე მეტია, დაუპრინტეთ, გოა-ში სწავლობდი?
-#თუ 1000----10000 -ია , დაუპრინტეთ you mid
-#თუ 1000-ზე დაბალია, დაუპრინტეთ, შემოსულიყავი გოაში, მატრიცელო
+#chemi dis saxeli Kato misi wlovaneba 20 wlis
 
-user_salary = int(input("enter salary: "))
+user_name = input("what's your name: ")
+print("her name is " + user_name)
 
-if user_salary >10000:
-    print("გოა-ში სწავლობდი?")
-elif user_salary >1000 and 10000:
-    print("you mid")
-else:
-    print("შემოსულიყავი გოაში, მატრიცელო")
+user_age = input("hold old are you: ")
+print(user_name + " is " + user_age + " years old ")
+
+#kato iqneba 40 wlis 20 welshi
+
+user_age = input("how old will u be in 20 years: ")
+print(user_name + " will be " + user_age + " years old" )
+
+#dedachemis saxeli Keti misi wlovaneba 42 
+
+user_name = input("what's your name: ")
+print("her name is " + user_name)
+
+user_age = input("hold old are you: ")
+print(user_name + " is " + user_age + " years old ")
+
+#dedachemi iqneba 62 wlis 20 welshi
+
+user_age = input("how old will u be in 20 years: ")
+print(user_name + " will be " + user_age + " years old" )
+
+#mamachemis saxeli Zaza misi wlovaneba 49 
+
+user_name = input("what's your name: ")
+print("his name is " + user_name)
+
+user_age = input("hold old are you: ")
+print(user_name + " is " + user_age + " years old ")
+
+#mamachemi iqneba 69 wlis 20 welshi
+
+user_age = input("how old will u be in 20 years: ")
+print(user_name + " will be " + user_age + " years old" )
